@@ -20,6 +20,10 @@ class Main extends luxe.Game {
 
         config.window.title = config.user.window.title;
 
+        // ASSETS
+        config.preload.textures.push({ id:'assets/tile_practice.png' });
+        config.preload.texts.push({ id:'assets/tile_practice.tmx' });
+
         return config;
 
     } //config
